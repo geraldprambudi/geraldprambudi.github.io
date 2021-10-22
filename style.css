@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
-}
+} */
 
 .navbar {
   text-transform: uppercase;
@@ -18,14 +19,19 @@ body {
 
 .jumbotron {
   padding-top: 5rem;
-  background: url(22.jpg) no-repeat center center fixed;
+  background: url(img/3.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 700px;
   overflow: hidden;
   color: #fff;
+  text-shadow: 1px 1px #000;
   padding: 5em inherit;
-  filter: grayscale(100%);
-  filter: contrast(80%);
+  font-family: 'Great Vibes', cursive;
+
+}
+
+.tron-text {
+  width: 50%;
 }
 
 .font-display {
@@ -73,7 +79,13 @@ section {
 
 #gallery {
   margin-top: -8rem;
+  font-family: 'Great Vibes', cursive;
   filter: grayscale(100%);
+}
+
+.akad {
+  font-family: 'Great Vibes', cursive;
+
 }
 
 #lokasi {
@@ -82,4 +94,8 @@ section {
 
 #trailer {
   display: none;
+}
+
+.locations {
+  font-family: 'Great Vibes', cursive;
 }
