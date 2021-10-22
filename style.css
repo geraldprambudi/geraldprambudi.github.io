@@ -19,7 +19,7 @@
 
 .jumbotron {
   padding-top: 5rem;
-  background: url(img/3.jpg) no-repeat center center fixed;
+  background: url(img/4.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 700px;
   overflow: hidden;
@@ -58,8 +58,8 @@ section {
   color: #fff;
   padding: 5em inherit;
   font-weight: 700;
-  filter: grayscale(100%);
-  filter: contrast(80%);
+
+  text-shadow: 1px 1px #000;
 }
 
 .isi-surat {
@@ -67,20 +67,19 @@ section {
 }
 
 #resepsi {
-
-  background: url(55.jpg) no-repeat center center fixed;
+  background: url(img/3.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 900px;
   overflow: hidden;
   color: #fff;
   padding: 5em inherit;
-  filter: grayscale(100%);
+  text-shadow: 1px 1px #000;
 }
 
 #gallery {
   margin-top: -8rem;
   font-family: 'Great Vibes', cursive;
-  filter: grayscale(100%);
+
 }
 
 .akad {
