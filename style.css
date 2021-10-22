@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background: url(22.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 700px;
+  overflow: hidden;
+  color: #fff;
+  padding: 5em inherit;
+  filter: grayscale(100%);
+  filter: contrast(80%);
+}
+
+.font-display {
+  padding-top: 5em;
+}
+
+section {
+  padding-top: 11.5rem;
+
+}
+
+#pembukaan {
+  padding-bottom: 5rem;
+  filter: grayscale(100%);
+
+}
+
+#surat {
+
+  background: url(44.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 900px;
+  overflow: hidden;
+  color: #fff;
+  padding: 5em inherit;
+  font-weight: 700;
+  filter: grayscale(100%);
+  filter: contrast(80%);
+}
+
+.isi-surat {
+  word-spacing: 10px;
+}
+
+#resepsi {
+
+  background: url(55.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 900px;
+  overflow: hidden;
+  color: #fff;
+  padding: 5em inherit;
+  filter: grayscale(100%);
+}
+
+#gallery {
+  margin-top: -8rem;
+  filter: grayscale(100%);
+}
+
+#lokasi {
+  margin-top: -8rem;
+}
+
+#trailer {
+  display: none;
+}
