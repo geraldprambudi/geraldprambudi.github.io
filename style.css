@@ -73,7 +73,7 @@ section {
   min-height: 900px;
   overflow: hidden; */
   color: #000;
-  padding-top: 8rem;
+  padding-top: 13rem;
   /* text-shadow: 1px 1px #000; */
 }
 
@@ -82,7 +82,7 @@ section {
 }
 
 #gallery {
-  margin-top: -6rem;
+  margin-top: -1rem;
   font-family: 'Great Vibes', cursive;
 
 }
