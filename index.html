@@ -12,8 +12,19 @@
 
     <title>Buka Undangan</title>
     <style>
+        @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+
         body {
-            text-transform: uppercase;
+            text-transform: capitalize;
+        }
+
+        .text-wedding {
+            font-weight: 700;
+            text-shadow: 3px 3px #fff;
+
+
         }
 
         .center {
@@ -21,6 +32,15 @@
             border: 3px solid gray;
             text-align: center;
             width: 100%;
+            background: url(img/background1.jpeg) no-repeat center center fixed;
+            background-size: cover;
+            min-height: 900px;
+            overflow: hidden;
+        }
+
+        .text-center {
+            font-family: "Great Vibes", cursive;
+
         }
     </style>
 </head>
@@ -28,10 +48,10 @@
 <body>
     <div class="container">
         <div class="center">
-            <h4>wedding invitation</h4>
-            <h6 class="text-center">Verika <br />& <br /> Alfian</h6>
-            <div class="mx-auto">
-                <a href="halamanUtama.html" class="btn btn-dark">Lihat Undangan</a>
+            <h1 class="text-wedding display-1">wedding invitation</h1>
+            <h1 class="text-center display-1 pt-5">Verika <br />& <br /> Alfian</h1>
+            <div class="mx-auto pt-5">
+                <a href="halamanUtama.html" class="btn btn-dark p-4">Lihat Undangan</a>
             </div>
         </div>
     </div>

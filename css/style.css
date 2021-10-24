@@ -83,6 +83,8 @@ section {
 
 .nama-mempelai {
   font-family: "Great Vibes", cursive;
+  color: #fbc531;
+  text-shadow: 1px 1px #000;
 }
 
 #gallery {
