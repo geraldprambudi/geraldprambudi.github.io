@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-
-<body>
-
-    <video width="320" height="240" autoplay muted>
-        <source src="music/number_one.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+  </head>
+  <style>
+    #myDIV {
+      border: 1px solid black;
+      background-color: lightblue;
+      width: 300px;
+      height: 210px;
+      overflow: hidden;
+    }
+    #video1 {
+      display: none;
+    }
+  </style>
+  <body>
+    <button onclick="myFunction()">Try it</button>
+    <video id="video1" width="420">
+      <source src="music/wings.mp4" type="video/mp4" />
+      Your browser does not support HTML video.
     </video>
 
-
-    <!-- <audio controls autoplay>
-        <source src="music/the_wings_of_love.mp3" type="audio/mpeg">
-    </audio> -->
-
-    <!-- <audio autoplay loop>
-        <source src="music/the_wings_of_love.mp3">
-    </audio>
-
-
-    <button onclick="play">Play</button>
-
+    <!-- teks -->
+    <div id="myDIV">
+      <button onclick="myFunction()">Try it</button>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem assumenda deleniti voluptatem et error nesciunt quod accusamus cumque, ut, non nulla tenetur obcaecati numquam fuga minus esse dolore, officia libero? Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sunt tempore eos quasi aut minima odio, consequatur repellat architecto accusantium autem voluptates id exercitationem impedit saepe ea dolorem suscipit eum. lorel
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aut accusamus quidem veritatis sint quam harum eaque at quae, quos a similique incidunt magni minus molestiae, consequuntur est nulla blanditiis!lorellorem Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Voluptates aspernatur debitis totam harum, unde molestiae culpa sequi illo fugiat perspiciatis quaerat! Fugit, ipsam? Atque laboriosam, quia blanditiis inventore iste deseru Lorem ipsum
+      dolor, sit amet consectetur adipisicing elit. Exercitationem assumenda deleniti voluptatem et error nesciunt quod accusamus cumque, ut, non nulla tenetur obcaecati numquam fuga minus esse dolore, officia libero? Lorem ipsum dolor sit
+      amet consectetur adipisicing elit. Necessitatibus sunt tempore eos quasi aut minima odio, consequatur repellat architecto accusantium autem voluptates id exercitationem impedit saepe ea dolorem suscipit eum. lorel Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Modi aut accusamus quidem veritatis sint quam harum eaque at quae, quos a similique incidunt magni minus molestiae, consequuntur est nulla blanditiis!lorellorem Lorem ipsum dolor sit amet consec
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem assumenda deleniti voluptatem et error nesciunt quod accusamus cumque, ut, non nulla tenetur obcaecati numquam fuga minus esse dolore, officia libero? Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sunt tempore eos quasi aut minima odio, consequatur repellat architecto accusantium autem voluptates id exercitationem impedit saepe ea dolorem suscipit eum. lorel
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aut accusamus quidem veritatis sint quam harum eaque at quae, quos a similique incidunt magni minus molestiae, consequuntur est nulla blanditiis!lorellorem Lorem ipsum
+      dolor sit amet consec Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem assumenda deleniti voluptatem et error nesciunt quod accusamus cumque, ut, non nulla tenetur obcaecati numquam fuga minus esse dolore,
+      officia libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sunt tempore eos quasi aut minima odio, consequatur repellat architecto accusantium autem voluptates id exercitationem impedit saepe ea dolorem
+      suscipit eum. lorel Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aut accusamus quidem veritatis sint quam harum eaque at quae, quos a similique incidunt magni minus molestiae, consequuntur est nulla
+      blanditiis!lorellorem Lorem ipsum dolor sit amet consec
+    </div>
     <script>
-        const myVideo = document.getElementById("video1");
-
-        function play() {
-            myVideo.play();
-
-        }
-    </script> -->
-</body>
-
+      function myFunction() {
+        document.getElementById("video1").play();
+        document.getElementById("myDIV").style.overflow = "visible";
+      }
+    </script>
+  </body>
 </html>
