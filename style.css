@@ -45,6 +45,10 @@ section {
 }
 
 #pembukaan {
+  background: url(background1.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 900px;
+  overflow: hidden;
   padding-bottom: 5rem;
   font-weight: 700;
 
