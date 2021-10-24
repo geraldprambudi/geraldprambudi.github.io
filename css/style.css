@@ -30,6 +30,18 @@
   font-family: "Great Vibes", cursive;
 }
 
+.the-wedding-of {
+  letter-spacing: 10px;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px #000;
+}
+
+.the-wedding-of-tgl {
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px #000;
+  letter-spacing: 5px;
+}
+
 .tron-text {
   width: 50%;
 }
