@@ -73,7 +73,7 @@ section {
   min-height: 900px;
   overflow: hidden; */
   color: #000;
-  padding-top: 15rem;
+  padding-top: 8rem;
   /* text-shadow: 1px 1px #000; */
 }
 
@@ -82,7 +82,7 @@ section {
 }
 
 #gallery {
-  padding-top: 15rem;
+  padding-top: 8rem;
   font-family: 'Great Vibes', cursive;
 
 }
@@ -92,7 +92,7 @@ section {
 }
 
 #lokasi {
-  padding-top: 15rem;
+  padding-top: 8rem;
 }
 
 #trailer {
