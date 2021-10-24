@@ -11,10 +11,11 @@
 }
 
 .navbar-brand {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 1rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #000;
 }
 
 .jumbotron {
@@ -62,23 +63,26 @@ section {
   word-spacing: 10px;
 }
 
+#wedding {
+  padding-top: 8rem;
+}
+
 #resepsi {
   /* background: url(img/3.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 900px;
   overflow: hidden; */
   color: #000;
-  padding: 5em inherit;
+  padding-top: 8rem;
   /* text-shadow: 1px 1px #000; */
 }
 
 .nama-mempelai {
-
   font-family: 'Great Vibes', cursive;
 }
 
 #gallery {
-  margin-top: -8rem;
+  margin-top: -6rem;
   font-family: 'Great Vibes', cursive;
 
 }
@@ -88,7 +92,7 @@ section {
 }
 
 #lokasi {
-  margin-top: -8rem;
+  padding-top: 5rem;
 }
 
 #trailer {
