@@ -5,6 +5,9 @@
 /* body {
   font-family: 'Roboto', sans-serif;
 } */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Video music player */
 #video1 {

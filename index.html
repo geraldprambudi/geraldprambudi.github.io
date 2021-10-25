@@ -101,7 +101,7 @@
         <h4 class="display-3 fw-bolder" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="20">Alfian</h4>
         <p class="pt-1 fw-bolder the-wedding-of-tgl" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="20">14 November 2021</p>
         <!-- <button onclick="bukaUndangan()" class="btn btn-dark mb-4 btn-undangan">Buka Undangan</button> -->
-        <button class="btn btn-dark bukaUndangan p-3" onclick="bukaUndangan()" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="20">Buka Undangan</button>
+        <a href="#resepsi"><button class="btn btn-dark bukaUndangan p-3" onclick="bukaUndangan()" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="20">Buka Undangan</button></a>
         <!-- volume speaker -->
         <i onclick="playPause(this)" id="volume" class="bi bi-volume-down-fill" style="font-size: 2rem; color: #2c3e50"></i>
       </div>
@@ -279,6 +279,11 @@
           //x.classList.toggle("fa-thumbs-down");
         }
       }
+    </script>
+    <script>
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
     </script>
   </body>
 </html>
