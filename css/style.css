@@ -143,6 +143,15 @@ section {
   font-weight: 700;
 }
 
+#protokol-kesehatan {
+  text-transform: capitalize;
+  padding-top: -12rem;
+}
+
+.protokoll {
+  padding-top: -25rem;
+}
+
 #surat {
   /* background-size: cover;
   min-height: 900px;
