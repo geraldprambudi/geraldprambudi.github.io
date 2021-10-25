@@ -34,16 +34,48 @@ html {
   text-shadow: 1px 1px #000;
 }
 
-#countDownNikah {
+/* #countDownNikah {
   font-family: "Roboto", sans-serif;
   text-shadow: 1px 1px #000;
   text-transform: uppercase;
-  border: 1px solid gray;
   padding: 1rem;
-  width: 50%;
-  margin: 0 auto;
   font-weight: 400;
-  color: #34495e;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+} */
+
+#countDownNikah {
+  font-family: "Roboto", sans-serif;
+
+  margin-top: -11rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: 000;
+}
+.countdown {
+  font-family: "Roboto", sans-serif;
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1.5rem;
+}
+
+.days {
+  font-size: 1rem;
+  color: #000;
 }
 
 .jumbotron {
@@ -106,7 +138,7 @@ section {
 }
 
 #pembukaan {
-  padding-top: 7rem;
+  padding-top: 6rem;
   padding-bottom: 5rem;
   font-weight: 700;
 }

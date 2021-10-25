@@ -167,10 +167,33 @@
             <div class="col-md-12">
               <h2 class="akad display-5 fw-bold" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="15">Save The Date</h2>
             </div>
-            <div class="col-md-12">
-              <!-- Countdown Nikah -->
-              <p id="countDownNikah" class="fs-4"></p>
-            </div>
+            <!-- COUNTDOWN NIKAH -->
+            <section id="countDownNikah">
+              <div class="container">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="countdown">
+                      <div class="container-day">
+                        <h3 class="day">Time</h3>
+                        <h3 class="days">Hari</h3>
+                      </div>
+                      <div class="container-hour">
+                        <h3 class="hour">Time</h3>
+                        <h3 class="days">Jam</h3>
+                      </div>
+                      <div class="container-minute">
+                        <h3 class="minute">Time</h3>
+                        <h3 class="days">Menit</h3>
+                      </div>
+                      <div class="container-second">
+                        <h3 class="second">Detik</h3>
+                        <h3 class="days">Detik</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
           <div class="row d-flex justify-content-around fs-5 pt-1 lh-lg">
             <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="15">
@@ -257,7 +280,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/TextPlugin.min.js"></script>
 
-    <script src="js/countdown.js"></script>
+    <!-- <script src="js/countdown.js"></script> -->
+    <script src="js/countdownbaru.js"></script>
     <script>
       function bukaUndangan() {
         document.getElementById("home").style.overflow = "visible";
@@ -275,8 +299,6 @@
         } else {
           myVideo.pause();
           document.getElementById("volume").className = "bi bi-volume-mute-fill";
-          //x.classList.toggle("bi bi-volume-mute-fill");
-          //x.classList.toggle("fa-thumbs-down");
         }
       }
     </script>
