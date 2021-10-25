@@ -36,6 +36,14 @@ html {
 
 #countDownNikah {
   font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px #000;
+  text-transform: uppercase;
+  border: 1px solid gray;
+  padding: 1rem;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 400;
+  color: #34495e;
 }
 
 .jumbotron {
