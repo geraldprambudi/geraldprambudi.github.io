@@ -2,9 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
-/* body {
-  font-family: 'Roboto', sans-serif;
-} */
 html {
   scroll-behavior: smooth;
 }
@@ -143,13 +140,11 @@ section {
   font-weight: 700;
 }
 
-#protokol-kesehatan {
-  text-transform: capitalize;
-  padding-top: -12rem;
-}
-
 .protokoll {
-  padding-top: -25rem;
+  color: #000;
+  text-transform: capitalize;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
 }
 
 #surat {
