@@ -21,7 +21,7 @@
 
   <body id="home">
     <!-- play music -->
-    <video id="video1" width="420">
+    <video id="video1" width="420" controls loop>
       <source src="music/wings2.mp4" type="video/mp4" />
       Your browser does not support HTML video.
     </video>
@@ -55,10 +55,10 @@
     </div>
   </nav> -->
     <!-- End Navbar -->
-
+    <!-- <button onclick="playPause()">speaker</button> -->
     <!-- Navbar bottom -->
-    <div id="navbar1">
-      <nav class="navbar navbar-light bg-white navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom">
+    <div id="navbar1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="15">
+      <nav class="navbar navbar-light bg-white navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="15">
         <ul class="navbar-nav nav-justified w-100">
           <li class="nav-item">
             <a href="#home" class="nav-link">
@@ -94,16 +94,19 @@
 
     <!--  jumbotron -->
     <section class="jumbotron text-center" style="overflow-x: hidden">
-      <div class="font-display" data-aos="fade-left" data-aos-duration="700" data-aos-delay="10">
-        <p class="pt-5 fw-bolder the-wedding-of">The Wedding Of</p>
-        <h4 class="display-3 fw-bolder">Verika</h4>
-        <h4 class="display-3 fw-bolder">And</h4>
-        <h4 class="display-3 fw-bolder">Alfian</h4>
-        <p class="pt-1 fw-bolder the-wedding-of-tgl">14 November 2021</p>
+      <div class="font-display">
+        <p class="pt-5 fw-bolder the-wedding-of" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="20">The Wedding Of</p>
+        <h4 class="display-3 fw-bolder" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="20">Verika</h4>
+        <h4 class="display-3 fw-bolder" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="20">And</h4>
+        <h4 class="display-3 fw-bolder" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="20">Alfian</h4>
+        <p class="pt-1 fw-bolder the-wedding-of-tgl" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="20">14 November 2021</p>
         <!-- <button onclick="bukaUndangan()" class="btn btn-dark mb-4 btn-undangan">Buka Undangan</button> -->
-        <button class="btn btn-dark bukaUndangan p-3" onclick="bukaUndangan()">Buka Undangan</button>
+        <button class="btn btn-dark bukaUndangan p-3" onclick="bukaUndangan()" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="20">Buka Undangan</button>
+        <!-- volume speaker -->
+        <i onclick="playPause(this)" id="volume" class="bi bi-volume-down-fill" style="font-size: 2rem; color: #2c3e50"></i>
       </div>
     </section>
+
     <!-- end jumbotron -->
     <div id="full-bg">
       <!-- Pembukaan -->
@@ -259,7 +262,22 @@
       function bukaUndangan() {
         document.getElementById("home").style.overflow = "visible";
         document.getElementById("navbar1").style.display = "block";
+        document.getElementById("volume").style.display = "block";
+
         document.getElementById("video1").play();
+      }
+      const myVideo = document.getElementById("video1");
+
+      function playPause(x) {
+        if (myVideo.paused) {
+          myVideo.play();
+          document.getElementById("volume").className = "bi bi-volume-down-fill";
+        } else {
+          myVideo.pause();
+          document.getElementById("volume").className = "bi bi-volume-mute-fill";
+          //x.classList.toggle("bi bi-volume-mute-fill");
+          //x.classList.toggle("fa-thumbs-down");
+        }
       }
     </script>
   </body>

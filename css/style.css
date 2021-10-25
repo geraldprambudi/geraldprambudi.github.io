@@ -47,6 +47,16 @@
   font-family: "Great Vibes", cursive;
 }
 
+#volume {
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 5.5rem; /* Position the navbar at the top of the page */
+  right: 1rem;
+  border: 1px solid #7f8c8d;
+  display: none;
+  cursor: pointer;
+  /* width: 100%; Full width */
+}
+
 #home {
   border: 1px solid black;
   background-color: lightblue;
