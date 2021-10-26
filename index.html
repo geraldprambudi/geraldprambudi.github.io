@@ -32,7 +32,7 @@
       <nav class="navbar navbar-light bg-white navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="15">
         <ul class="navbar-nav nav-justified w-100">
           <li class="nav-item">
-            <a href="#home" class="nav-link">
+            <a href="#home" class="nav-link" onclick="return theFunction();" >
               <i class="bi bi-house-fill"></i>
               <br />
               Home</a
@@ -71,7 +71,7 @@
         <h4 class="display-3 fw-bolder" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="20">And</h4>
         <h4 class="display-3 fw-bolder" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="20">Alfian</h4>
         <p class="pt-1 fw-bolder the-wedding-of-tgl" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="20">14 November 2021</p>
-        <!-- <button onclick="bukaUndangan()" class="btn btn-dark mb-4 btn-undangan">Buka Undangan</button> -->
+        
         <a href="#pembukaan"><button class="btn btn-dark bukaUndangan p-3" onclick="bukaUndangan()" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="20">Buka Undangan</button></a>
         <!-- volume speaker -->
         <i onclick="playPause(this)" id="volume" class="bi bi-volume-down-fill" style="font-size: 2rem; color: #2c3e50"></i>
@@ -288,9 +288,15 @@
     <!-- <script src="js/countdown.js"></script> -->
     <script src="js/countdownbaru.js"></script>
     <script>
+  
+
+    function theFunction(){
+        // window.location = "index.html";
+    }
+      
       function bukaUndangan() {
         document.getElementById("home").style.overflow = "visible";
-        document.getElementById("navbar1").style.display = "block";
+        // document.getElementById("navbar1").style.display = "block";
         document.getElementById("volume").style.display = "block";
 
         document.getElementById("video1").play();

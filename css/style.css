@@ -13,6 +13,7 @@ html {
 
 .bukaUndangan {
   font-family: "Roboto", sans-serif;
+
 }
 
 .navbar {
@@ -20,7 +21,7 @@ html {
 }
 
 #navbar1 {
-  display: none;
+  /* display: none; */
 }
 
 .navbar-brand {
@@ -53,6 +54,7 @@ html {
   justify-content: center;
   color: 000;
 }
+
 .countdown {
   font-family: "Roboto", sans-serif;
 
@@ -88,8 +90,10 @@ html {
 }
 
 #volume {
-  position: fixed; /* Set the navbar to fixed position */
-  bottom: 5.5rem; /* Position the navbar at the top of the page */
+  position: fixed;
+  /* Set the navbar to fixed position */
+  bottom: 5.5rem;
+  /* Position the navbar at the top of the page */
   right: 1rem;
   border: 1px solid #7f8c8d;
   display: none;
