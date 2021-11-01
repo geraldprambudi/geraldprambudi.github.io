@@ -13,7 +13,6 @@ html {
 
 .bukaUndangan {
   font-family: "Roboto", sans-serif;
-
 }
 
 .navbar {
@@ -79,8 +78,11 @@ html {
 
 .jumbotron {
   padding-top: 1rem;
-  background: url(../img/background2.JPG) no-repeat center center fixed;
+  background: url(../img/background2.png) no-repeat center center fixed;
   background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   min-height: 700px;
   overflow: hidden;
   color: #fff;
